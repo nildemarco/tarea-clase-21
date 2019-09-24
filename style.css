@@ -11,7 +11,7 @@ body {
   top: 40%; }
 
 .block1 {
-  height: 600px;
+  height: 720px;
   background-color: #7452a3;
   display: flex;
   flex-direction: column;
@@ -54,18 +54,36 @@ body {
     height: 15px; }
 
 .block2 {
-  width: 100%;
-  height: 500px;
+  height: 1024px;
   background-color: #ffff;
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
-.parte2a {
-  width: 50%;
-  height: 350px; }
+.parte2a img {
+  width: 700px;
+  height: 517px;
+  object-fit: contain; }
 
 .parte2b {
-  width: 40%;
-  height: 400px;
-  background-color: #f5f3f8; }
+  width: 600px;
+  height: 600px;
+  background-color: #f5f3f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 150px; }
+  .parte2b h2 {
+    font-family: "Libre Baskerville", serif;
+    color: #7452a3;
+    font-size: 30px; }
+  .parte2b .texto2 {
+    font-display: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #060606; }
+  .parte2b p {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #67b3ff; }
