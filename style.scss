@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Source+Sans+Pro&display=swap');
+
+$maincolor: #7452a3;
+$secucolor: #99f7e2;
+$fontmain: 'Libre Baskerville', serif;
+$fontsec: 'Source Sans Pro', sans-serif;
+
+body {
+    margin: 0px;
+}
+
+.navegation-icons {
+    width: 12px;
+    height: 153px;
+    object-fit: contain;
+    position: fixed;
+    right: 48px;
+    top: 40%;
+
+}
+.block1 {
+    height: 600px;
+    background-color: $maincolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 100px;
+   
+}
+
+.menu {
+    font-family: $fontsec;
+    width: 80%;
+    color: $secucolor;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+.main {
+    width: 50%;
+
+    h1 {
+        font-family: $fontmain;
+        font-size: 50px;
+        color: $secucolor;
+    }
+    p {
+        font-family: $fontsec;
+        font-weight: 300;
+        color: #ffff;
+        font-size: 15px;
+    }
+}
+
+.mouse {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    img {
+    width: 15px;
+    height: 15px;
+    }
+    
+}
+
+.block2 {
+    width: 100%;
+    height: 500px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parte2a {
+    width: 50%;
+    height: 350px;
+}
+
+.parte2b {
+    width: 40%;
+    height: 400px;
+    background-color: #f5f3f8;
+
+}
